@@ -25,12 +25,12 @@ p {
 }
 
 #home1 {
-	background: #0174DF;
+	background: #34af04;
 	color: white;
 	margin-top: 100px;
 }
 #home2 {
-	background: #0174DF;
+	background: #34af04;
 	color: white;
 	margin-top: 50px;
 }
@@ -57,7 +57,8 @@ p {
 	margin: 0px 60px 0px 60px;
 }
 .subtitulo {
-	margin-left: 250px;
+	text-align: center;
+	margin-top: 10px;
 	font-family:Helvetica,Arial,sans-serif;
 	text-indent: 50px;
 	font-weight: bold;
@@ -297,13 +298,14 @@ img#lorene {
 
 
 #medalha {
-	background: #0174DF;
-	color: white;
+	background: whitesmoke;
+	color: black;
 	margin-top: 10px;
 }
 
 .carousel-control-prev, .carousel-control-next {
 		width: 5%;
+		color: #000000;
 }
 
 /* botões */
@@ -388,6 +390,7 @@ h1#titulos {
 
 .carousel-control-prev, .carousel-control-next {
 		width: 5%;
+		color: #000000;
 }
 
 /*publicacoes*/

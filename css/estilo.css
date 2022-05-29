@@ -316,14 +316,14 @@ img#lorene {
 /* botões */
 
 .btn-custom {
-	margin: 10px 250px 10px 250px;
+	
 	color: white;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
 	transition: background 0.4s, color 0.4s;
 	padding: 10px 15px;
-	background: #0174DF;
+	background: #34af04;
 
 }
 

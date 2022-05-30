@@ -198,8 +198,8 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .estatuto {
 	margin-left:150px;
@@ -284,9 +284,10 @@ img#lorene {
 
 .caixaconteudo {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 20px;
-	padding: 5px;
-	margin-top: 5px;	
+	font-size: 18px;
+	padding: 2px;
+	margin-top: 5px;
+	text-align: justify;	
 }
 .caixatexto {
 	font-family: Helvetica,Arial,sans-serif;

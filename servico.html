@@ -10,6 +10,7 @@
 
     <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/8589feca2e.js" crossorigin="anonymous"></script>
+    
 
     <!-- estilo Customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -93,45 +94,69 @@
   <div class="accordion" id="accordionExample">
     <div class="card">
       <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Plataforma DTracker
-          </button>
+        <h5 class="mb-0">Plataforma DTracker
+          <div style="text-align: right;">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <i class="fa fa-plus" style="color: green;" aria-hidden="true"> Descrição</i>
+            </button>
+          </div>                 
         </h5>
       </div>
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
-          
+          <p>
+            A Plataforma DTracker é parte integrante das Soluções Smart Master Daycom, possibilitando uma 
+            interação ágil, simples e eficaz entre a equipe de Monitoramento e os ativos gerenciados por nossa 
+            soluções.
+            O acesso à plataforma é via web e é gerenciado por senhas que garantem que apenas pessoas 
+            habilitadas acessem as informações referentes aos equipamentos de sua base. Também existe uma 
+            hierarquização de acessos para controle de quais informações podem ser acessadas por diferentes 
+            níveis hierárquicos da empresa.
+          </p><br>
+          <img src="img/DTracker.jpg" class="foto" width="80%">
+          <p style="text-align: center;font-size: 24px;margin-top: 15px;">
+            <a href="doc/Manual Descritivo  Plataforma Dtracker.pdf" target="blank" style="text-decoration: underline;
+             color: black;">Manual Descritivo  Plataforma Dtracker</a>
+          </p>
         </div>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Engenharia de Desenvolvimento
-          </button>
+        <h5 class="mb-0">Engenharia de Desenvolvimento
+          <div style="text-align: right;">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <i class="fa fa-plus" style="color: green;" aria-hidden="true"> saiba mais</i>
+            </button>
+          </div>
         </h5>
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
-          Elaboramos e executamos projetos de engenharia, preparando especificações para atender sua 
-          necessidade, projeto eletrônico e lay out da placa, listagem BOM dos componentes a serem utilizados
-          e especificamos astécnicas de execução
-          e recursos necessários para possibilitar a construção, montagem, funcionamento, manutenção e 
-          reparo de seus equipamentos.
-          Se seu interesse é repassar somente uma parte do desenvolvimento, alocaremos os recursos técnicos
-          capacitados para atender etapas específicas da elaboração de seu equipamento.
+          <p>
+            Elaboramos e executamos projetos de engenharia, preparando especificações para atender sua 
+            necessidade, projeto eletrônico e lay out da placa, listagem BOM dos componentes a serem utilizados
+            e especificamos astécnicas de execução
+            e recursos necessários para possibilitar a construção, montagem, funcionamento, manutenção e 
+            reparo de seus equipamentos.
+            Se seu interesse é repassar somente uma parte do desenvolvimento, alocaremos os recursos técnicos
+            capacitados para atender etapas específicas da elaboração de seu equipamento.
+          </p>
         </div>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Customizações
-          </button>
+        <h5 class="mb-0"> Customizações
+          <div style="text-align: right;">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <i class="fa fa-plus" style="color: green;" aria-hidden="true"> saiba mais</i>
+            </button>
+          </div>
         </h5>
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -153,38 +178,97 @@
               </div>
             </div>
         </div>
-      <div class="container align-self-center"><!--container -->
-        <div class="row"><!--row -->
-          <div class="col-md-6 capa"> 
+        <div class="container align-self-center"><!--container -->
+          <div class="row"><!--row -->
+            <div class="col-md-6 capa"> 
             
-            <h2>Projeto monitoramento de celulares</h2>
+              <h2>Projeto monitoramento de celulares</h2>
                 <p>Produtos customizados  para implantação em cases de celular mantendo diversas características tais como peso e aparência
                   do produto original.</p><br>
                
-            <img src="img/celular.jpg" class="foto" width="50%"><br>
-          </div>
-          <div class="col-md-6 capa">
-            <h2>Projeto Rastreamento de Armas</h2>
+              <img src="img/celular.jpg" class="foto" width="50%"><br>
+            </div>
+            <div class="col-md-6 capa">
+              <h2>Projeto Rastreamento de Armas</h2>
                 <p>Os equipamentos são instalados em coronhas das armas e monitorados  por plataforma.</p><br><br>
                
-            <img src="img/Arma.jpg" class="foto" width="80%"><br>
+              <img src="img/Arma.jpg" class="foto" width="80%"><br>
+            </div>
           </div>
         </div>
-      </div>
-        </div>
+        
       </div>
     </div>
     <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Soluções Integradas Daycom Smart
-          </button>
+      <div class="card-header" id="headingFour">        
+        <h5 class="mb-0">Soluções Integradas Daycom Smart
+          <div style="text-align: right;">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" 
+            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <i class="fa fa-plus" style="color: green;" aria-hidden="true"> saiba mais</i>
+            </button>
+          </div>
         </h5>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <p> uma linha completa de soluções para a Gestão de riscos de seu ativo.</p><br>
+          <img src="img/DTracker.jpg" class="foto" width="80%"><br>
+
+          <p>
+            <strong>SMART Master :</strong> Composta por equipamento Master que gerencia um ou vários 
+            equipamentos slaves e se comunica com nossa Plataforma para Gestão de Ativos e mitigação de 
+            riscos. 
+            Os serviços associados são:
+            <ol class="smart">
+              <li>SMART  slave</li>
+              <li>SMART  truck</li>
+              <li>SMART padlock</li>
+              <li>SMART termo</li>
+              <li>SMART CO.2</li>
+            </ol>
+          </p>
+          <p>
+            <strong>SMART slave:</strong>  Esta solução integrada consiste do equipamento master e vários 
+              equipamentos slaves , gerenciados pela Plataforma DTracker. Estes equipamentos se comunicam com 
+              nossa plataforma por GPS (satélite) e GSM (celular) para informação detalhada de seu percurso. 
+              Quando a carga, ou parte dela, é separada sem autorização prévia, as slaves passam a emitir o 
+              sinal de radio frequência que permite que equipes de campo localizem com exatidão onde está a 
+              carga.
+            <strong>SMART truck:</strong> Semelhante ao SMART slave, com a funcionalidade de informar o 
+              engate e desengate da carreta ao cavalo. Na ocorrência informa a localização exata dos mesmos.<br>
+            <strong>SMART padlock: </strong>utiliza a tecnologia de fibra digital como cadeado eletrônico e 
+              quando ocorre o rompimento o SMART Master é imediatamente informado.<br>
+            <strong>SMART thermo: </strong>monitora a temperatura em tempo real e permite a configuração de 
+              uma temperatura mínima e máxima, sendo gerar possível gerar relatório em PDF com as informações
+               do transporte realizado. Ideal para transporte onde o controle da temperatura é essencial para 
+               garantir a qualidade da carga transportada.<br>
+            <strong>SMART CO2: </strong>realiza a medição de gás carbônico no ambiente, verificando a 
+              qualidade do ar  no transporte de animais vivos, informando nossa plataforma sobre qualquer 
+              alteração no ambiente.
+
+          </p>
+          <p>
+            <strong>SMART Carreta :</strong>  Solução para Gestão de Carretas com as funcionalidades:
+            <ol class="carreta">
+              <li><strong>Engate / Desengate:</strong>  Um dispositivo principal é instalado no cavalo e dispositivos 
+                secundários são instalados na carreta. É realizada a associação da placa do cavalo com a(s) 
+                placa(s) da(s) carretas(s) e quando ocorrer o desengate não autorizado o dispositivo principal 
+                informa a plataforma e o dispositivo secundário passar a funcionar como rastreador emitindo a 
+                localização por GPS, GSM e RF, possibilitando a localização dos ativos.
+              </li>
+              <li> 
+                <strong>Função Destravamento do motor de partida:</strong>  a partida do motor é controlada por celular com 
+                tecnologia NFC, sendo necessária a apresentação deste celular para que nosso dispositivo libere o 
+                acionamento do motor. Com isto apenas o motorista autorizado consegue dar a partida. 
+                Tudo isto é realizado remotamente por nossa plataforma.
+                <p>
+                  Conheça detalhes desta solução no YouTube: 
+                  <a href="https://youtu.be/YkpKTukNbB4 " target="_blank"> https://youtu.be/YkpKTukNbB4 </a> 
+                </p>
+              </li>
+            </ol>
+          </p>
         </div>
       </div>
     </div>

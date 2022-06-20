@@ -187,7 +187,17 @@ p {
 	font-size: 27px;
 	text-decoration: underline;
 }
-
+.smart {
+	list-style-type: circle;
+	
+	font-weight: bold;
+	margin-left: 150px;
+}
+.carreta {
+	list-style-type: circle;
+	margin-left: 150px;
+	max-width: 75%;
+}
 /* configurações menu */
 #menu-header .selecionado a {
 	background-position: right;
